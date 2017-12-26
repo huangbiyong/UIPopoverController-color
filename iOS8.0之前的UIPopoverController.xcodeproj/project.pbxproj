@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A59D461FF1D9AC00156967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A59D451FF1D9AC00156967 /* AppDelegate.swift */; };
+		14A59D481FF1D9AC00156967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A59D471FF1D9AC00156967 /* ViewController.swift */; };
+		14A59D4B1FF1D9AC00156967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A59D491FF1D9AC00156967 /* Main.storyboard */; };
+		14A59D4D1FF1D9AC00156967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A59D4C1FF1D9AC00156967 /* Assets.xcassets */; };
+		14A59D501FF1D9AC00156967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A59D4E1FF1D9AC00156967 /* LaunchScreen.storyboard */; };
+		14A59D581FF1DA7800156967 /* colorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A59D571FF1DA7800156967 /* colorWheel.png */; };
+		14A59D5E1FF1DFDF00156967 /* UIImage+GetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A59D5C1FF1DFDE00156967 /* UIImage+GetColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14A59D421FF1D9AC00156967 /* iOS8.0之前的UIPopoverController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8.0之前的UIPopoverController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A59D451FF1D9AC00156967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14A59D471FF1D9AC00156967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14A59D4A1FF1D9AC00156967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14A59D4C1FF1D9AC00156967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A59D4F1FF1D9AC00156967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14A59D511FF1D9AC00156967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A59D571FF1DA7800156967 /* colorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorWheel.png; sourceTree = "<group>"; };
+		14A59D5B1FF1DFDE00156967 /* iOS8.0之前的UIPopoverController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS8.0之前的UIPopoverController-Bridging-Header.h"; sourceTree = "<group>"; };
+		14A59D5C1FF1DFDE00156967 /* UIImage+GetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetColor.m"; sourceTree = "<group>"; };
+		14A59D5D1FF1DFDE00156967 /* UIImage+GetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetColor.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A59D3F1FF1D9AC00156967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A59D391FF1D9AC00156967 = {
+			isa = PBXGroup;
+			children = (
+				14A59D441FF1D9AC00156967 /* iOS8.0之前的UIPopoverController */,
+				14A59D431FF1D9AC00156967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A59D431FF1D9AC00156967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A59D421FF1D9AC00156967 /* iOS8.0之前的UIPopoverController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A59D441FF1D9AC00156967 /* iOS8.0之前的UIPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				14A59D5D1FF1DFDE00156967 /* UIImage+GetColor.h */,
+				14A59D5C1FF1DFDE00156967 /* UIImage+GetColor.m */,
+				14A59D571FF1DA7800156967 /* colorWheel.png */,
+				14A59D451FF1D9AC00156967 /* AppDelegate.swift */,
+				14A59D471FF1D9AC00156967 /* ViewController.swift */,
+				14A59D491FF1D9AC00156967 /* Main.storyboard */,
+				14A59D4C1FF1D9AC00156967 /* Assets.xcassets */,
+				14A59D4E1FF1D9AC00156967 /* LaunchScreen.storyboard */,
+				14A59D511FF1D9AC00156967 /* Info.plist */,
+				14A59D5B1FF1DFDE00156967 /* iOS8.0之前的UIPopoverController-Bridging-Header.h */,
+			);
+			path = "iOS8.0之前的UIPopoverController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A59D411FF1D9AC00156967 /* iOS8.0之前的UIPopoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A59D541FF1D9AC00156967 /* Build configuration list for PBXNativeTarget "iOS8.0之前的UIPopoverController" */;
+			buildPhases = (
+				14A59D3E1FF1D9AC00156967 /* Sources */,
+				14A59D3F1FF1D9AC00156967 /* Frameworks */,
+				14A59D401FF1D9AC00156967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS8.0之前的UIPopoverController";
+			productName = "iOS8.0之前的UIPopoverController";
+			productReference = 14A59D421FF1D9AC00156967 /* iOS8.0之前的UIPopoverController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A59D3A1FF1D9AC00156967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.chase;
+				TargetAttributes = {
+					14A59D411FF1D9AC00156967 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14A59D3D1FF1D9AC00156967 /* Build configuration list for PBXProject "iOS8.0之前的UIPopoverController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A59D391FF1D9AC00156967;
+			productRefGroup = 14A59D431FF1D9AC00156967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A59D411FF1D9AC00156967 /* iOS8.0之前的UIPopoverController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A59D401FF1D9AC00156967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A59D501FF1D9AC00156967 /* LaunchScreen.storyboard in Resources */,
+				14A59D581FF1DA7800156967 /* colorWheel.png in Resources */,
+				14A59D4D1FF1D9AC00156967 /* Assets.xcassets in Resources */,
+				14A59D4B1FF1D9AC00156967 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A59D3E1FF1D9AC00156967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A59D5E1FF1DFDF00156967 /* UIImage+GetColor.m in Sources */,
+				14A59D481FF1D9AC00156967 /* ViewController.swift in Sources */,
+				14A59D461FF1D9AC00156967 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14A59D491FF1D9AC00156967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A59D4A1FF1D9AC00156967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14A59D4E1FF1D9AC00156967 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A59D4F1FF1D9AC00156967 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A59D521FF1D9AC00156967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14A59D531FF1D9AC00156967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A59D551FF1D9AC00156967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS8.0之前的UIPopoverController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.iOS8-0---UIPopoverController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS8.0之前的UIPopoverController/iOS8.0之前的UIPopoverController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		14A59D561FF1D9AC00156967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS8.0之前的UIPopoverController/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chase.iOS8-0---UIPopoverController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS8.0之前的UIPopoverController/iOS8.0之前的UIPopoverController-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A59D3D1FF1D9AC00156967 /* Build configuration list for PBXProject "iOS8.0之前的UIPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A59D521FF1D9AC00156967 /* Debug */,
+				14A59D531FF1D9AC00156967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A59D541FF1D9AC00156967 /* Build configuration list for PBXNativeTarget "iOS8.0之前的UIPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A59D551FF1D9AC00156967 /* Debug */,
+				14A59D561FF1D9AC00156967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A59D3A1FF1D9AC00156967 /* Project object */;
+}
